@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Cadastro da liga dos astronautas</h2>
+    </header>
+
+    <section>
+        <form action="/Html/confirmation.html">
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="" required>
+
+            <label for="sobrenome"><strong>Sobrenome:</strong></label>
+            <input type="text" name="sobrenome" id="" required>
+
+            <br>
+            <br>
+
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="" required>
+
+            <label for="senha"><strong>Senha:</strong></label>
+            <input type="password" name="senha" id="" required>
+
+            <br>
+            <br>
+
+            <label for="data-nascimento"><strong>Data de nascimento:</strong></label>
+            <input type="date" name="data-nascimento" id="" required>
+
+            <label for="envio-foto"><strong>Foto</strong></label>
+            <input type="file" name="envio-foto" id="" required>
+
+            <br>
+            <br>
+
+            <div>
+                <label for="nacionalidade"><strong>Nacionalidade:</strong></label>
+                <input list="nacionalidades" placeholder="Brasileiro" required>
+                <datalist id="nacionalidades">
+                    <option value="Brasileiro">
+                    <option value="Estadunidense">
+                    <option value="Canadense">
+                    <option value="Angolano">
+                    <option value="Argentino">
+                </datalist>
+
+                <label for="Genero"><strong>Genero</strong></label>
+                F
+                <input type="radio" name="Genero" id="">
+                M
+                <input type="radio" name="Genero" id="">
+            </div>
+
+            <p><strong>Suas principais qualidades:</strong></p>
+
+            <label for="Inteligencia">Inteligencia</label>
+            <input type="radio" name="Inteligencia" id="">
+
+            <label for="Resiliencia">Resiliencia</label>
+            <input type="radio" name="Resiliencia" id="">
+
+            <label for="Preparo físico">Preparo físico</label>
+            <input type="radio" name="Preparo físico" id="">
+
+            <label for="Educaçã">Educação</label>
+            <input type="radio" name="Educação" id="">
+
+            <br>
+            <br>
+
+            <textarea placeholder="Porque voce gostaria de ser um astronauta?" cols="35" rows="8"></textarea>
+
+            <br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+</body>
+
+</html>

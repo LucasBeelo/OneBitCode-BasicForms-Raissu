@@ -1,0 +1,18 @@
+body {
+    color: white;
+    background-image: url(/Imagens/background_page1.jpg);
+}
+
+header {
+    border-bottom: 2px rgb(255, 255, 255) solid;
+
+    position: relative;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
